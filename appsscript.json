@@ -1,0 +1,29 @@
+{
+  "timeZone": "America/Los_Angeles",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "OAuth2",
+      "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF",
+      "version": "26",
+      "developmentMode": true
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": ["https://www.googleapis.com/auth/gmail.addons.execute", 
+                  "https://www.googleapis.com/auth/gmail.modify",
+                 "https://www.googleapis.com/auth/script.external_request"
+                 ],
+  "urlFetchWhitelist": ["https://login.salesforce.com/", "https://todoist.com/", "https://mail.google.com/", "https://en.wikipedia.org/wiki/", "https://beta.todoist.com/", "https://beta.todoist.com/API/v8/tasks/"],
+  "gmail": {
+    "name": "Todoist Gmail Add-on",
+    "logoUrl": "https://cdn.zapier.com/storage/developer/965784dd0a38a1e338b61b8b89ceaf78.128x128.png",
+    "contextualTriggers": [{
+      "unconditional": {
+      },
+      "onTriggerFunction": "getContextualAddOn"
+    }],
+    "primaryColor": "#4285F4",
+    "secondaryColor": "#4285F4",
+    "openLinkUrlPrefixes": ["https://mail.google.com/", "https://login.salesforce.com/", "https://todoist.com/", "https://mail.google.com/", "https://en.wikipedia.org/wiki/", "https://beta.todoist.com/", "https://beta.todoist.com/API/v8/tasks/"]
+  }
+}
