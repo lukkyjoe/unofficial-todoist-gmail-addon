@@ -72,7 +72,6 @@ function getContextualAddOn(e) {
         .setHeader(CardService.newCardHeader()
             .setTitle('Unofficial Todoist Addon'))
         .addSection(CardService.newCardSection()
-            .addWidget(CardService.newButtonSet().addButton(createToCardButton(1)))
             .addWidget(CardService.newKeyValue()
                 .setTopLabel('Task Name')
                 .setContent(subject))
