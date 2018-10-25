@@ -9,4 +9,4 @@ This addon is not yet published on the gmail store, but you may install it as an
 https://developers.google.com/gmail/add-ons/how-tos/install-unpublished
 
 When you get to the part where you need a deployment ID, use mine:
-Deployment ID: AKfycbyGG7RK0-Qg-79wI7QGuW2lPbBAIj_l0yEePpj9I3Ro
+`Deployment ID: AKfycbyGG7RK0-Qg-79wI7QGuW2lPbBAIj_l0yEePpj9I3Ro`
