@@ -10,7 +10,10 @@ https://developers.google.com/gmail/add-ons/how-tos/install-unpublished
 
 When you get to the part where you need a deployment ID, use mine:
 `Deployment ID: AKfycbyGG7RK0-Qg-79wI7QGuW2lPbBAIj_l0yEePpj9I3Ro`
+
 Because this is currently still just a developer (unpublished) add-on, I need to whitelist your gmail address for to you be able to install it. Otherwise you may just get an `invalid add-on` error.
+
+UPDATE (2018-11-02): Sadness for iOS gmail users! As of 2018-11-02 gmail-addons are not yet enabled on iOS. :(  
 
 
 ## Follow-up features
